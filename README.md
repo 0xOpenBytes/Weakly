@@ -15,7 +15,7 @@ The most basic use case for Weakly is capturing a weak reference to an object an
 ```swift
 class MyClass {
     func myMethod() {
-        weakly(self) { strongSelf in
+        weakly(self) { object in
             // Use the object safely inside the closure
         }()
     }
